@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -44,6 +45,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projetos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Percurso académico</a>
@@ -155,6 +159,48 @@
 
       </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="mb-5">
+              <h2 class="section-heading text-uppercase">Projetos</h2>
+              <h3 class="section-subheading text-muted">Projetos pessoais e colaborações</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/projects/01-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Página de promoção</h4>
+                <p class="text-muted">Colaboração no desenvolvimento da Página de Promoção do MIEET</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/projects/02-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Página de promoção</h4>
+                <p class="text-muted">Main developer na Página de Promoção da LEI</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Percurso Académico</h2>
@@ -256,6 +302,63 @@
         </div>
       </section>
 
+    </div>
+
+    <!-- Modal -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Página de Promoção do MIEET</h2>
+                  <p class="item-intro text-muted">Colaborador</p>
+                  <p>Colaboração no desenvolvimento na página de promoção do Mestrado em Engenharia 
+                    Eletrónica e Telecomunicações da Universidade de Aveiro.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="http://deti-cdn.clients.ua.pt/mieet/">Ver website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Página de Promoção da LEI</h2>
+                  <p class="item-intro text-muted">Main developer</p>
+                  <p>Main developer da página de promoção da Licenciatura em Engenharia Informática da Universidade de Aveiro.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="http://deti-cdn.clients.ua.pt/lei/">Ver website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
