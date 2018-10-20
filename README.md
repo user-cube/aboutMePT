@@ -1,6 +1,5 @@
 # [About Me](https://user-cube.github.io/aboutMePT/)
-
-Página web com o currículo personalizado.
+My personal curriculum webpage (english version).
 
 ## Preview
 
