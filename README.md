@@ -4,7 +4,7 @@ Página web com o currículo personalizado.
 
 ## Preview
 
-[![About Me Website Preview](https://image.ibb.co/ius5o0/aboutmept.png)](https://user-cube.github.io/aboutMePT/)
+[![About Me Website Preview](https://image.ibb.co/bFmJaf/aboutmept.png)](https://user-cube.github.io/aboutMePT/)
 
 **[View Live Preview](https://user-cube.github.io/aboutMePT/)**
 
