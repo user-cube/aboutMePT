@@ -1,5 +1,5 @@
 # [About Me](https://user-cube.github.io/aboutMePT/)
-My personal curriculum webpage (english version).
+My personal curriculum webpage (portuguese version).
 
 ## Preview
 
