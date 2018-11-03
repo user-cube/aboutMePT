@@ -3,7 +3,7 @@ My personal curriculum webpage (portuguese version).
 
 ## Preview
 
-[![About Me Website Preview](https://image.ibb.co/bFmJaf/aboutmept.png)](https://user-cube.github.io/aboutMePT/)
+[![About Me Website Preview](https://image.ibb.co/geR4v0/aboutmept.png)](https://user-cube.github.io/aboutMePT/)
 
 **[View Live Preview](https://user-cube.github.io/aboutMePT/)**
 
